@@ -19,6 +19,6 @@ useUnifiedTopology: true })
         .then((result)=>console.log('connected to db'))
         .catch((err)=>console.log(err));
 
-app.listen(port, function(err){
-    console.log("Listening on port:" +port)
-});
+//app.listen(port, function(err){
+  //  console.log("Listening on port:" +port)
+//});
